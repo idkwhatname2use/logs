@@ -1,0 +1,345 @@
+[19:58:25] [main/INFO]: Loading Minecraft 1.19.2 with Fabric Loader 0.14.13
+[19:58:25] [main/INFO]: Fabric is preparing JARs on first launch, this may take a few seconds...
+[19:58:25] [ForkJoinPool-1-worker-5/WARN]: Mod create uses the version 0.5.0.i-925+1.19.2 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'i'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:58:25] [ForkJoinPool-1-worker-7/WARN]: Mod flywheel uses the version 0.6.8.a-4 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[19:58:25] [main/INFO]: Loading 105 mods:
+	- cardinal-components 5.0.2
+	- cardinal-components-base 5.0.2 via cardinal-components
+	- cardinal-components-block 5.0.2 via cardinal-components
+	- cardinal-components-chunk 5.0.2 via cardinal-components
+	- cardinal-components-entity 5.0.2 via cardinal-components
+	- cardinal-components-item 5.0.2 via cardinal-components
+	- cardinal-components-level 5.0.2 via cardinal-components
+	- cardinal-components-scoreboard 5.0.2 via cardinal-components
+	- cardinal-components-world 5.0.2 via cardinal-components
+	- carryon 2.0.4.6
+	- cloth-basic-math 0.6.1 via cloth-config
+	- cloth-config 8.2.88
+	- com_electronwill_night-config_core 3.6.5 via forgeconfigapiport
+	- com_electronwill_night-config_toml 3.6.5 via forgeconfigapiport
+	- com_github_llamalad7_mixinextras 0.2.0-beta.1 via carryon
+	- com_google_code_findbugs_jsr305 3.0.2 via create
+	- create 0.5.0.i-925+1.19.2
+	- dripstone_fluid_lib 2.0.1 via milk
+	- fabric-api 0.73.2+1.19.2
+	- fabric-api-base 0.4.15+8f4e8eb390 via fabric-api
+	- fabric-api-lookup-api-v1 1.6.14+93d8cb8290 via fabric-api
+	- fabric-biome-api-v1 9.1.0+82db024a90 via fabric-api
+	- fabric-block-api-v1 1.0.2+e415d50e90 via fabric-api
+	- fabric-blockrenderlayer-v1 1.1.24+c6af733c90 via fabric-api
+	- fabric-client-tags-api-v1 1.0.5+b35fea8390 via fabric-api
+	- fabric-command-api-v1 1.2.16+f71b366f90 via fabric-api
+	- fabric-command-api-v2 2.2.1+413cbbc790 via fabric-api
+	- fabric-commands-v0 0.2.33+df3654b390 via fabric-api
+	- fabric-containers-v0 0.1.41+df3654b390 via fabric-api
+	- fabric-content-registries-v0 3.5.1+7c6cd14d90 via fabric-api
+	- fabric-convention-tags-v1 1.2.2+27265b3490 via fabric-api
+	- fabric-crash-report-info-v1 0.2.8+aeb40ebe90 via fabric-api
+	- fabric-data-generation-api-v1 5.3.7+413cbbc790 via fabric-api
+	- fabric-dimensions-v1 2.1.35+0d0f210290 via fabric-api
+	- fabric-entity-events-v1 1.5.4+9244241690 via fabric-api
+	- fabric-events-interaction-v0 0.4.34+562bff6e90 via fabric-api
+	- fabric-events-lifecycle-v0 0.2.35+df3654b390 via fabric-api
+	- fabric-game-rule-api-v1 1.0.24+b6b6abb490 via fabric-api
+	- fabric-item-api-v1 1.6.5+dce4603e90 via fabric-api
+	- fabric-item-groups-v0 0.3.38+9244241690 via fabric-api
+	- fabric-key-binding-api-v1 1.0.25+5c4fce2890 via fabric-api
+	- fabric-keybindings-v0 0.2.23+df3654b390 via fabric-api
+	- fabric-lifecycle-events-v1 2.2.4+1b46dc7890 via fabric-api
+	- fabric-loot-api-v2 1.1.12+83a8659290 via fabric-api
+	- fabric-loot-tables-v1 1.1.15+9e7660c690 via fabric-api
+	- fabric-message-api-v1 5.0.7+93d8cb8290 via fabric-api
+	- fabric-mining-level-api-v1 2.1.23+33fbc73890 via fabric-api
+	- fabric-models-v0 0.3.21+c6af733c90 via fabric-api
+	- fabric-networking-api-v1 1.2.11+10eb22f490 via fabric-api
+	- fabric-networking-v0 0.3.28+df3654b390 via fabric-api
+	- fabric-object-builder-api-v1 4.2.1+d8ef690890 via fabric-api
+	- fabric-particles-v1 1.0.14+4d0d570390 via fabric-api
+	- fabric-recipe-api-v1 1.0.1+413cbbc790 via fabric-api
+	- fabric-registry-sync-v0 0.9.32+9244241690 via fabric-api
+	- fabric-renderer-api-v1 1.2.1+2e5408b590 via fabric-api
+	- fabric-renderer-indigo 0.7.1+2e5408b590 via fabric-api
+	- fabric-renderer-registries-v1 3.2.24+df3654b390 via fabric-api
+	- fabric-rendering-data-attachment-v1 0.3.19+6e0787e690 via fabric-api
+	- fabric-rendering-fluids-v1 3.0.11+4d0d570390 via fabric-api
+	- fabric-rendering-v0 1.1.27+df3654b390 via fabric-api
+	- fabric-rendering-v1 1.12.1+d8ef690890 via fabric-api
+	- fabric-resource-conditions-api-v1 2.1.2+aae9039d90 via fabric-api
+	- fabric-resource-loader-v0 0.8.3+251d254a90 via fabric-api
+	- fabric-screen-api-v1 1.0.32+4d0d570390 via fabric-api
+	- fabric-screen-handler-api-v1 1.3.7+1cc24b1b90 via fabric-api
+	- fabric-sound-api-v1 1.0.2+c4f28df590 via fabric-api
+	- fabric-textures-v0 1.0.24+aeb40ebe90 via fabric-api
+	- fabric-transfer-api-v1 2.1.6+413cbbc790 via fabric-api
+	- fabric-transitive-access-wideners-v1 1.3.3+08b73de490 via fabric-api
+	- fabricloader 0.14.13
+	- flywheel 0.6.8.a-4 via create
+	- forge_tags 3.0 via porting_lib
+	- forgeconfigapiport 4.2.9 via create
+	- java 17
+	- milk 1.0.51 via create
+	- minecraft 1.19.2
+	- mm 2.3 via porting_lib
+	- moonlight 1.19.2-2.2.4
+	- opaccreatesupport 1.1.0
+	- openpartiesandclaims 0.16.6
+	- porting_lib 2.1.731+1.19.2 via create
+	- porting_lib_accessors 2.1.731+1.19.2 via porting_lib
+	- porting_lib_attributes 2.1.731+1.19.2 via porting_lib
+	- porting_lib_base 2.1.731+1.19.2 via porting_lib
+	- porting_lib_common 2.1.731+1.19.2 via porting_lib
+	- porting_lib_constants 2.1.731+1.19.2 via porting_lib
+	- porting_lib_entity 2.1.731+1.19.2 via porting_lib
+	- porting_lib_extensions 2.1.731+1.19.2 via porting_lib
+	- porting_lib_fake_players 2.1.731+1.19.2 via porting_lib
+	- porting_lib_lazy_registration 2.1.731+1.19.2 via porting_lib
+	- porting_lib_model_generators 2.1.731+1.19.2 via porting_lib
+	- porting_lib_model_loader 2.1.731+1.19.2 via porting_lib
+	- porting_lib_models 2.1.731+1.19.2 via porting_lib
+	- porting_lib_networking 2.1.731+1.19.2 via porting_lib
+	- porting_lib_obj_loader 2.1.731+1.19.2 via porting_lib
+	- porting_lib_transfer 2.1.731+1.19.2 via porting_lib
+	- pugh_tools 1.3.23 via treeaxe
+	- reach-entity-attributes 2.3.0 via create
+	- registrate-fabric 1.1.50-MC1.19.2 via create
+	- serialization_hooks 0.3.26 via porting_lib
+	- supplementaries 1.19.2-2.2.46
+	- travelersbackpack 1.19.2-8.2.12
+	- treeaxe 1.2.24
+	- xaerominimap 22.17.1
+	- xaeroworldmap 1.28.8
+[19:58:26] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/schul/curseforge/minecraft/Install/libraries/net/fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[19:58:29] [main/INFO]: Compatibility level set to JAVA_17
+[19:58:30] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder)
+[19:58:30] [main/WARN]: @Mixin target me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder was not found flywheel.mixins.json:instancemanage.SodiumChunkRenderDataMixin from mod flywheel
+[19:58:34] [main/WARN]: Method overwrite conflict for setTranslation in flywheel.fabric.mixins.json:Matrix4fMixin from mod flywheel, previously written by io.github.fabricators_of_create.porting_lib.mixin.common.Matrix4fMixin. Skipping method.
+[19:58:36] [main/INFO]: Building optimized datafixer
+[19:58:46] [Render thread/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:58:47] [Render thread/INFO]: Setting user: idkwhatnameihave
+[19:58:52] [Render thread/WARN]: Method overwrite conflict for getPixelRGBA in moonlight.mixins.json:TextureAtlasSpriteMixin from mod moonlight, previously written by io.github.fabricators_of_create.porting_lib.mixin.client.TextureAtlasSpriteMixin. Skipping method.
+[19:58:54] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[19:58:54] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[19:58:54] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:glass_bottle
+[19:58:54] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[19:58:56] [Render thread/WARN]: Configuration file C:\Users\schul\curseforge\minecraft\Instances\server\config\create-common.toml is not correct. Correcting
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen.v2 was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen.v2.disableWorldGen was corrected from null to its default, false. 
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_nether was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_nether.clusterSize was corrected from null to its default, 32. 
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_nether.frequency was corrected from null to its default, 0.0833333358168602. 
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_nether.minHeight was corrected from null to its default, 40. 
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_nether.maxHeight was corrected from null to its default, 90. 
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_overworld was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_overworld.clusterSize was corrected from null to its default, 32. 
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_overworld.frequency was corrected from null to its default, 0.0833333358168602. 
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_overworld.minHeight was corrected from null to its default, -30. 
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen.v2.striated_ores_overworld.maxHeight was corrected from null to its default, 70. 
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen.v2.zinc_ore was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen.v2.zinc_ore.clusterSize was corrected from null to its default, 12. 
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen.v2.zinc_ore.frequency was corrected from null to its default, 8.0. 
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen.v2.zinc_ore.minHeight was corrected from null to its default, -63. 
+[19:58:56] [Render thread/WARN]: Incorrect key worldgen.v2.zinc_ore.maxHeight was corrected from null to its default, 70. 
+[19:58:56] [Render thread/WARN]: Configuration file C:\Users\schul\curseforge\minecraft\Instances\server\config\create-client.toml is not correct. Correcting
+[19:58:56] [Render thread/WARN]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.enableTooltips was corrected from null to its default, true. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.enableOverstressedTooltip was corrected from null to its default, true. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.explainRenderErrors was corrected from null to its default, false. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.fanParticleDensity was corrected from null to its default, 0.5. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.filterItemRenderDistance was corrected from null to its default, 10.0. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.enableRainbowDebug was corrected from null to its default, false. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.maximumContraptionLightVolume was corrected from null to its default, 16384. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.mainMenuConfigButtonRow was corrected from null to its default, 2. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.mainMenuConfigButtonOffsetX was corrected from null to its default, -4. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.ingameMenuConfigButtonRow was corrected from null to its default, 3. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.ingameMenuConfigButtonOffsetX was corrected from null to its default, -4. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.ignoreFabulousWarning was corrected from null to its default, false. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.fluidUnitType was corrected from null to its default, MILIBUCKETS. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.simplifyFluidUnit was corrected from null to its default, true. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.toolboxHotbarOverlayOffset was corrected from null to its default, 0. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.goggleOverlay was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.goggleOverlay.overlayOffsetX was corrected from null to its default, 20. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.goggleOverlay.overlayOffsetY was corrected from null to its default, 0. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.goggleOverlay.customColorsOverlay was corrected from null to its default, false. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.goggleOverlay.customBackgroundOverlay was corrected from null to its default, -267386864. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.goggleOverlay.customBorderTopOverlay was corrected from null to its default, 1347420415. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.goggleOverlay.customBorderBotOverlay was corrected from null to its default, 1344798847. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.placementAssist was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.placementAssist.indicatorType was corrected from null to its default, TEXTURE. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.placementAssist.indicatorScale was corrected from null to its default, 1.0. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.ponder was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.ponder.comfyReading was corrected from null to its default, false. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.ponder.editingMode was corrected from null to its default, false. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.sound was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.sound.enableAmbientSounds was corrected from null to its default, true. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.sound.ambientVolumeCap was corrected from null to its default, 0.10000000149011612. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.trains was corrected from null to its default, SimpleCommentedConfig:{}. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.trains.mountedZoomMultiplier was corrected from null to its default, 3.0. 
+[19:58:56] [Render thread/WARN]: Incorrect key client.trains.showTrackGraphOnF3 was corrected from null to its default, false. 
+[19:58:56] [Render thread/WARN]: Encountered duplicate API provider registration for item: minecraft:bucket
+[19:58:57] [Render thread/INFO]: Definitely not up to no good
+[19:58:58] [Render thread/INFO]: Open Parties and Claims: Create mod support!
+[19:59:00] [Render thread/INFO]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.WaterEffect as a FluidEffect for minecraft:water 81000 with the ID 0
+[19:59:00] [Render thread/INFO]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.LavaEffect as a FluidEffect for minecraft:lava 81000 with the ID 1
+[19:59:00] [Render thread/INFO]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.PotionEffect as a FluidEffect for travelersbackpack:potion_still 27000 with the ID 2
+[19:59:01] [Render thread/INFO]: [Indigo] Registering Indigo renderer!
+[19:59:01] [Render thread/INFO]: No shaders mod detected.
+[19:59:02] [Render thread/INFO]: Initialized block sets in 11ms
+[19:59:02] [Render thread/ERROR]: No data fixer registered for dispenser_minecart
+[19:59:02] [Render thread/ERROR]: No data fixer registered for falling_urn
+[19:59:02] [Render thread/ERROR]: No data fixer registered for falling_ash
+[19:59:02] [Render thread/ERROR]: No data fixer registered for falling_lantern
+[19:59:02] [Render thread/ERROR]: No data fixer registered for falling_sack
+[19:59:02] [Render thread/ERROR]: No data fixer registered for brick_projectile
+[19:59:02] [Render thread/ERROR]: No data fixer registered for bomb
+[19:59:02] [Render thread/ERROR]: No data fixer registered for rope_arrow
+[19:59:02] [Render thread/ERROR]: No data fixer registered for slingshot_projectile
+[19:59:02] [Worker-Bootstrap-13/INFO]: 4283 Datafixer optimizations took 26199 milliseconds
+[19:59:02] [Render thread/INFO]: Initialized color sets in 16ms
+[19:59:02] [Render thread/INFO]: Finished mod setup in: [0, 2, 1, 0, 1, 16, 1, 0, 0, 0, 0, 2, 8, 1] ms
+[19:59:02] [Render thread/INFO]: Loading Open Parties and Claims!
+[19:59:02] [Render thread/INFO]: Loading Xaero's Minimap - Stage 1/2
+[19:59:04] [Render thread/INFO]: Loading Xaero's World Map - Stage 1/2
+[19:59:05] [Render thread/INFO]: Backend library: LWJGL version 3.3.1 SNAPSHOT
+[19:59:07] [Render thread/INFO]: Narrator library for x64 successfully loaded
+[19:59:07] [Render thread/INFO]: Reloading ResourceManager: Default, Fabric Mods (Cardinal Components API, Cardinal Components API (base), Cardinal Components API (blocks), Cardinal Components API (chunks), Cardinal Components API (entities), Cardinal Components API (items), Cardinal Components API (world saves), Cardinal Components API (scoreboard), Cardinal Components API (worlds), Carry On, Cloth Config v8, Create, Dripstone Fluid Lib, Fabric API, Fabric API Base, Fabric API Lookup API (v1), Fabric Biome API (v1), Fabric Block API (v1), Fabric BlockRenderLayer Registration (v1), Fabric Client Tags, Fabric Command API (v1), Fabric Command API (v2), Fabric Commands (v0), Fabric Containers (v0), Fabric Content Registries (v0), Fabric Convention Tags, Fabric Crash Report Info (v1), Fabric Data Generation API (v1), Fabric Dimensions API (v1), Fabric Entity Events (v1), Fabric Events Interaction (v0), Fabric Events Lifecycle (v0), Fabric Game Rule API (v1), Fabric Item API (v1), Fabric Item Groups (v0), Fabric Key Binding API (v1), Fabric Key Bindings (v0), Fabric Lifecycle Events (v1), Fabric Loot API (v2), Fabric Loot Tables (v1), Fabric Message API (v1), Fabric Mining Level API (v1), Fabric Models (v0), Fabric Networking API (v1), Fabric Networking (v0), Fabric Object Builder API (v1), Fabric Particles (v1), Fabric Recipe API (v1), Fabric Registry Sync (v0), Fabric Renderer API (v1), Fabric Renderer - Indigo, Fabric Renderer Registries (v1), Fabric Rendering Data Attachment (v1), Fabric Rendering Fluids (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Resource Conditions API (v1), Fabric Resource Loader (v0), Fabric Screen API (v1), Fabric Screen Handler API (v1), Fabric Sound API (v1), Fabric Textures (v0), Fabric Transfer API (v1), Fabric Transitive Access Wideners (v1), Fabric Loader, Flywheel, Porting Lib Tags, Forge Config API Port, Milk Lib, Manningham Mills, Moonlight, Open Parties and Claims, Porting Lib, Porting Lib Accessors, Porting Lib Attributes, Porting Lib Base, Porting Lib Common, Porting Lib Constants, Porting Lib Entity, Porting Lib Extensions, Porting Lib Fake Players, Porting Lib Lazy Register, Porting Lib Model Generators, Porting Lib Model Loader, Porting Lib Models, Porting Lib Networking, Porting Lib Obj Loader, Porting Lib Transfer, Reach Entity Attributes, Registrate for Fabric, Serialization Hooks, Supplementaries, Traveler's Backpack, The TreeAxe, Xaero's Minimap, Xaero's World Map), Supplementaries Generated Pack
+[19:59:07] [Render thread/INFO]: Generated runtime CLIENT_RESOURCES for pack Supplementaries Generated Pack in: 68 ms
+[19:59:07] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:07] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:07] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:07] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:07] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:07] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:07] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:07] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:07] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:07] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:07] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:07] [Render thread/INFO]: Loading Xaero's Minimap - Stage 2/2
+[19:59:07] [Worker-Main-27/WARN]: Unable to load model: 'supplementaries:blocks/wall_lanterns/wall_lantern_brass' referenced from: supplementaries:blocks/wall_lanterns/wall_lantern_brass: java.io.FileNotFoundException: supplementaries:models/blocks/wall_lanterns/wall_lantern_brass.json
+[19:59:07] [Worker-Main-27/WARN]: Unable to load model: 'supplementaries:blocks/wall_lanterns/wall_lantern_copper' referenced from: supplementaries:blocks/wall_lanterns/wall_lantern_copper: java.io.FileNotFoundException: supplementaries:models/blocks/wall_lanterns/wall_lantern_copper.json
+[19:59:07] [Worker-Main-27/WARN]: Unable to load model: 'supplementaries:blocks/wall_lanterns/wall_lantern_gold' referenced from: supplementaries:blocks/wall_lanterns/wall_lantern_gold: java.io.FileNotFoundException: supplementaries:models/blocks/wall_lanterns/wall_lantern_gold.json
+[19:59:07] [Render thread/INFO]: Xaero's Minimap: World Map found!
+[19:59:08] [Render thread/INFO]: Xaero's Minimap: Open Parties And Claims found!
+[19:59:08] [Render thread/INFO]: No Optifine!
+[19:59:08] [Render thread/INFO]: Xaero's Minimap: No Vivecraft!
+[19:59:08] [Render thread/INFO]: Loading Xaero's World Map - Stage 2/2
+[19:59:08] [Render thread/INFO]: New world map region cache hash code: -185606602
+[19:59:08] [Render thread/INFO]: Xaero's WorldMap Mod: Xaero's minimap found!
+[19:59:08] [Render thread/INFO]: Xaero's WorldMap Mod: Open Parties And Claims found!
+[19:59:08] [Render thread/INFO]: No Optifine!
+[19:59:08] [Render thread/INFO]: Xaero's World Map: No Vivecraft!
+[19:59:08] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:08] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:08] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:08] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:08] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:08] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:08] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:08] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:08] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:08] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:08] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:08] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:08] [Worker-Main-27/ERROR]: Unknown model loader: forge:composite
+[19:59:08] [Worker-Main-27/ERROR]: Unknown model loader: forge:composite
+[19:59:09] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:09] [Worker-Main-27/ERROR]: Unknown model loader: forge:obj
+[19:59:10] [Worker-Main-21/ERROR]: Using missing texture, file supplementaries:textures/blocks/sconce_fire_nether_brass.png not found
+[19:59:10] [Worker-Main-24/ERROR]: Using missing texture, file supplementaries:textures/blocks/sconce_nether_brass.png not found
+[19:59:10] [Worker-Main-20/ERROR]: Using missing texture, file buzzier_bees:textures/block/soul_candle_lit.png not found
+[19:59:10] [Worker-Main-22/ERROR]: Using missing texture, file supplementaries:textures/items/sconce_nether_brass.png not found
+[19:59:10] [Worker-Main-17/ERROR]: Using missing texture, file buzzier_bees:textures/block/soul_candle.png not found
+[19:59:10] [Render thread/WARN]: Missing sound for event: minecraft:item.goat_horn.play
+[19:59:10] [Render thread/WARN]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[19:59:10] [Render thread/WARN]: Missing sound for event: supplementaries:item.wrench.hit
+[19:59:10] [Render thread/INFO]: OpenAL initialized on device OpenAL Soft on Lautsprecher (High Definition Audio Device)
+[19:59:10] [Render thread/INFO]: Sound engine started
+[19:59:10] [Render thread/INFO]: Created: 2048x2048x4 minecraft:textures/atlas/blocks.png-atlas
+[19:59:10] [Render thread/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[19:59:10] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[19:59:10] [Render thread/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[19:59:10] [Render thread/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[19:59:10] [Render thread/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[19:59:10] [Render thread/INFO]: Created: 512x512x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[19:59:12] [Render thread/WARN]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[19:59:12] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[19:59:12] [Render thread/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[19:59:12] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[19:59:12] [Render thread/INFO]: Loaded all shader sources.
+[19:59:12] [Render thread/INFO]: Successfully reloaded the minimap shaders!
+[19:59:12] [Render thread/INFO]: Successfully reloaded the world map shaders!
+[20:01:44] [Render thread/INFO]: Connecting to 161.97.135.179, 27665
+[20:01:44] [Netty Client IO #1/INFO]: Connected to a modded server.
+[20:01:45] [Render thread/INFO]: New minimap session initialized!
+[20:01:45] [Render thread/INFO]: New world map session initialized!
+[20:01:45] [Render thread/INFO]: Started 10 worker threads
+[20:01:46] [Render thread/INFO]: Reloading entity icon resources...
+[20:01:46] [Netty Client IO #1/ERROR]: Exception occurred in netty pipeline
+io.netty.handler.codec.DecoderException: java.lang.IndexOutOfBoundsException: readerIndex(16402) + length(1) exceeds writerIndex(16402): UnpooledHeapByteBuf(ridx: 16402, widx: 16402, cap: 16402/16402)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:480) ~[netty-codec-4.1.77.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279) ~[netty-codec-4.1.77.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:299) [netty-codec-4.1.77.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:327) [netty-codec-4.1.77.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:314) [netty-codec-4.1.77.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:435) [netty-codec-4.1.77.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:279) [netty-codec-4.1.77.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) [netty-codec-4.1.77.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-handler-4.1.77.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496) [netty-transport-4.1.77.Final.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:995) [netty-common-4.1.77.Final.jar:?]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.77.Final.jar:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.IndexOutOfBoundsException: readerIndex(16402) + length(1) exceeds writerIndex(16402): UnpooledHeapByteBuf(ridx: 16402, widx: 16402, cap: 16402/16402)
+	at io.netty.buffer.AbstractByteBuf.checkReadableBytes0(AbstractByteBuf.java:1442) ~[netty-buffer-4.1.77.Final.jar:?]
+	at io.netty.buffer.AbstractByteBuf.readByte(AbstractByteBuf.java:730) ~[netty-buffer-4.1.77.Final.jar:?]
+	at net.minecraft.class_2540.readByte(class_2540.java:1192) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2540.method_10816(class_2540.java:441) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2540.method_10799(class_2540.java:319) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2540.method_10787(class_2540.java:315) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2683.handler$ceh000$onInit(class_2683.java:557) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2683.<init>(class_2683.java:56) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2539$class_4532.method_22310(class_2539.java:433) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2539.method_10783(class_2539.java:485) ~[client-intermediary.jar:?]
+	at net.minecraft.class_2543.decode(class_2543.java:32) ~[client-intermediary.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:510) ~[netty-codec-4.1.77.Final.jar:?]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:449) ~[netty-codec-4.1.77.Final.jar:?]
+	... 36 more
+[20:01:46] [Render thread/INFO]: Done!
+[20:01:46] [Render thread/WARN]: Failed to get file path of mod moonlight
+[20:01:46] [Render thread/WARN]: Failed to get file path of mod supplementaries
+[20:01:46] [Render thread/WARN]: Config file had missing entry zombie_horse_inverse_conversion
+[20:01:46] [Render thread/INFO]: Synced supplementaries-common.json configs
+[20:01:46] [Render thread/INFO]: Synced Flute Songs
+[20:01:46] [Render thread/INFO]: Synced Captured Mobs settings
+[20:01:46] [Render thread/INFO]: Synced Globe data
+[20:01:46] [Render thread/INFO]: Minimap updated server level id: -858069535 for world ResourceKey[minecraft:dimension / minecraft:overworld]
+[20:01:46] [Render thread/INFO]: Minimap session finalized.
+[20:01:46] [Render thread/INFO]: Finalizing world map session...
+[20:01:46] [Thread-3/INFO]: World map force-cleaned!
+[20:01:46] [Render thread/INFO]: World map session finalized.
+[20:02:09] [Render thread/INFO]: Stopping!
